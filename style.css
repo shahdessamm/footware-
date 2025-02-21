@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cb021c;
+    font-family: "Roboto", sans-serif ;
+    margin: 0;
+    transition: background 0.4s ease-in-out;
+  
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.bar{
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    font-size: 3rem;
+}
+
+.phone{
+    position:fixed;
+    top: 2rem;
+    right: 2rem;
+    font-size: 3rem;
+}
+
+.logo{
+    color: white;
+    font-size: 1.7rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+.logo h2{
+    font-weight: normal;
+    margin: 0;
+}
+
+.logo i{
+    font-size: 3rem;
+    
+}
+
+.logo p {
+    color: #1f1f1f;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.slide img {
+    object-fit: cover;
+    height: 300px;
+    width: 400px;
+}
+.slide {
+    width: 100vw;
+    text-align: center;
+    
+}
+.carousel {
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    transform: translateX(0);
+}
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    margin-top: 5rem;
+}
+.slide h1 {
+    color: white;
+    font-size: 4rem;
+    margin-top: -2rem;
+   
+}
+.btn {
+    background-color: #100f0f;
+    padding: 0px 10px;
+    font-size: 40px;
+    outline:none;
+    border:none;
+    cursor: pointer;
+    color: white;
+}
+.movie-list-item-button{
+    padding: 10px ;
+    background-color: rgb(153,50,204);
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    bottom:15px;
+    left: 50%;
+    transform: translateX(-50%);
+    outline:none;
+    border:none;
+    cursor: pointer;
+    opacity: 0;
+    transition: 1.5s all ease-in-out;
+}
+.arrow {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 5rem;
+    color: black;
+    opacity: 0.5;
+}
+.left-arrow {
+    left: 2rem;
+}
+
+.right-arrow {
+    right: 2rem;
+}
+
